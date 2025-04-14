@@ -1,0 +1,128 @@
+.icoon {
+    font-size: 25px;
+}
+
+.contact-details-box {
+    gap: 0 !important;
+}
+
+.contact-details-box>.box {
+    transition: all 0.4s;
+}
+
+.contact-details-box>.box:hover {
+    margin-top: -15px;
+    box-shadow: 0 0 70px 20px rgba(165, 180, 209, .2);
+    transition: all 0.4s;
+}
+
+.bgimg {
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.bgimg>img {
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+}
+
+.form-left-details {
+    width: 28%;
+    padding: 2rem 2rem;
+}
+
+.contact-getTouch {
+    padding: 39px 10px 40px 20px !important;
+}
+
+.form-left-details-year {
+    margin-bottom: 20px;
+}
+
+.form-left-details-year-text>h2 {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.form-left-details-year-text>p {
+    margin-bottom: 0;
+    font-size: 15px;
+    color: #86898d;
+}
+
+.Contact-ka-form .getTouch-links {
+    width: 28% !important;
+}
+
+.Contact-ka-form .getTouch {
+    width: 72% !important;
+}
+
+.carousel-item>img {
+    width: 65% !important;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#carouselExampleCaptions {
+    margin-top: 40px;
+}
+
+#conactgirl {
+    position: absolute;
+    left: 0rem;
+    bottom: 0;
+    height: 24%;
+    width: auto;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    /* background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e); */
+    background-color: hsl(0deg 0.92% 49.93% / 36%);
+}
+
+#girlcont {
+    /* display: none; */
+}
+
+.Contact-ka-form {
+    background: transparent;
+}
+
+@media screen and (max-width: 1150px) {
+    .form-left-details {
+        padding: 2rem 2rem 0 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .contact-details-box {
+        padding: 50px 0;
+    }
+
+    #girlcont {
+        display: block;
+    }
+
+    #conactgirl {
+        display: none;
+    }
+
+    .form-left-details {
+        width: auto;
+        padding: 39px 10px 40px 20px !important;
+    }
+
+    .carousel-item>img {
+        width: 55% !important;
+    }
+
+}

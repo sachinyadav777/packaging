@@ -1,0 +1,52 @@
+.policy {
+    place-items: center;
+}
+
+.policy-details>h1 {
+    color: #3e3e3e;
+}
+
+.policy-details>p {
+    color: var(--para-color);
+    line-height: 1.7rem;
+    font-weight: 500;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.all-policy {
+    background: var(--bg-color-3);
+}
+
+.all-policy-inside>h1 {
+    color: #3e3e3e;
+    margin-bottom: 25px;
+}
+
+.all-policy-inside>p {
+    margin-bottom: 20px;
+    color: var(--para-color);
+    line-height: 1.7rem;
+    text-align: justify;
+}
+
+.all-policy-inside>span {
+    margin: 30px 0;
+    display: block;
+    color: var(--para-color);
+}
+
+/* Opportunities */
+
+.Opportunities {
+    background: var(--bg-color-3);
+    color: var(--black);
+}
+
+/* .Opportunities-left-text>h1 {
+    
+} */
+
+.Opportunities-right-text {
+    text-align: justify;
+}
